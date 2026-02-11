@@ -9,4 +9,4 @@ configMapGenerator:
   - name: backend-config
     behavior: replace
     envs:
-      - configmap.yaml
+      - configmap.env
