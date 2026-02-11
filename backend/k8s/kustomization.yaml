@@ -7,8 +7,5 @@ resources:
 
 configMapGenerator:
   - name: backend-config
-    behavior: replace
     envs:
       - configmap.env
-
-namespace: default
