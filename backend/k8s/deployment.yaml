@@ -14,7 +14,7 @@ spec:
       labels:
         app: backend-api
       annotations:
-        checksum/config: "{{ include (print $.Template.BasePath \"/configmap.yaml\") . | sha256sum }}"
+        reloader.stakater.com/auto: "true"
     spec:
       containers:
       - name: backend-api
