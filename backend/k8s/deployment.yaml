@@ -14,7 +14,7 @@ spec:
       labels:
         app: backend-api
       annotations:
-        checksum/config: "a3f5c1d9b7f6e"
+        checksum/config: "a3f5c1d9b7f6esdf"
     spec:
       containers:
       - name: backend-api
