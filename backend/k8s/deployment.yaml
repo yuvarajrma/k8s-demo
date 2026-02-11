@@ -13,8 +13,6 @@ spec:
     metadata:
       labels:
         app: backend-api
-      annotations:
-        reloader.stakater.com/auto: "true"
     spec:
       containers:
       - name: backend-api
