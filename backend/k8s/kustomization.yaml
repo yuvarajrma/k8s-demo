@@ -10,3 +10,5 @@ configMapGenerator:
     behavior: replace
     envs:
       - configmap.env
+
+namespace: default
